@@ -1,0 +1,16 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Data (raw MELD videos ~11 GB, extracted features)
+data/raw/*
+!data/raw/*.csv
+data/processed/
+
+# Models / experiment artifacts
+checkpoints/
+*.ckpt
+*.pth
+runs/
+wandb/
